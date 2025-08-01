@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Booking System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Event Booking Dashboard</h1>
+
+    <h2>Users</h2>
+    <div id="users"></div>
+    <input type="text" id="newUserName" placeholder="New User Name">
+    <button onclick="addUser()">Add User</button>
+
+    <h2>Events</h2>
+    <div id="events"></div>
+    <input type="text" id="newEventName" placeholder="Event Name">
+    <input type="datetime-local" id="newEventDateTime">
+    <input type="number" id="newEventSeats" placeholder="Total Seats">
+    <button onclick="addEvent()">Add Event</button>
+
+    <h2>Book Event</h2>
+    <select id="userSelect"></select>
+    <select id="eventSelect"></select>
+    <button onclick="bookEvent()">Book Now</button>
+
+    <p id="message"></p>
+
+    <script src="/static/script.js" defer></script>
+</body>
+</html>
 
