@@ -1,0 +1,75 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Aditi Sharma"
+        },
+        {
+            "id": 2,
+            "name": "Rahul Verma"
+        },
+        {
+            "name": "Ankita",
+            "id": 3
+        },
+        {
+            "name": "Shantesh",
+            "id": 4
+        }
+    ],
+    "events": [
+        {
+            "id": 101,
+            "name": "Tech Summit 2025",
+            "dateTime": "2025-07-15T04:30",
+            "totalSeats": 100,
+            "bookedSeats": 99
+        },
+        {
+            "id": 102,
+            "name": "AI Workshop",
+            "dateTime": "2025-07-20T08:30",
+            "totalSeats": 50,
+            "bookedSeats": 50
+        },
+        {
+            "id": 103,
+            "name": "Cyber Security Talk",
+            "dateTime": "2025-08-01T10:30",
+            "totalSeats": 75,
+            "bookedSeats": 74
+        }
+    ],
+    "bookings": [
+        {
+            "id": 501,
+            "userId": 1,
+            "eventId": 101
+        },
+        {
+            "id": 502,
+            "userId": 2,
+            "eventId": 101
+        },
+        {
+            "id": 503,
+            "userId": 2,
+            "eventId": 103
+        },
+        {
+            "id": 504,
+            "userId": 3,
+            "eventId": 103
+        },
+        {
+            "id": 505,
+            "userId": 1,
+            "eventId": 103
+        },
+        {
+            "id": 506,
+            "userId": 4,
+            "eventId": 103
+        }
+    ]
+}
