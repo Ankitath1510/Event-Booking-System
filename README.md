@@ -3,23 +3,24 @@ A simple Event Booking Dashboard built with **Flask (Python)** and **HTML/CSS/Ja
 - Users to register for events
 - CRUD (Create, Read, Update, Delete) operations for Users & Events
 - Prevents overbooking (seat limits)
-- Displays seats left with color-coded status (Available / Few Left / Sold Out)
+- Displays seats left
 Project Structure
 project-folder/  
-├── app.py # Flask Backend  
-├── data.json # Mock database (Users, Events, Bookings)  
+├── app.py   
+├── data.json # Mock database   
 ├── templates/  
-│ └── index.html # Frontend UI  
+│ └── index.html   
 └── static/  
-├── styles.css # CSS Styling  
-└── script.js # JavaScript Logic
-
-
----
+├── styles.css  
+└── script.js 
 
 ## How to Run Locally
 1. **Install Python 3.x**
 2. **Install Flask**:
    ```bash
    pip install flask
+3. **Run the Flask App**:
+   python app.py
+4. Open your browser and go to:
+ http://127.0.0.1:5000/
 
