@@ -4,8 +4,8 @@ A simple Event Booking Dashboard built with **Flask (Python)** and **HTML/CSS/Ja
 - CRUD (Create, Read, Update, Delete) operations for Users & Events
 - Prevents overbooking (seat limits)
 - Displays seats left
-Project Structure
-project-folder/  
+Project Structure  
+project-folder/    
 ├── app.py   
 ├── data.json # Mock database   
 ├── templates/  
